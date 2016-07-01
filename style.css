@@ -1,0 +1,154 @@
+body {
+    background-color: black;
+}
+
+.page-wrapper {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    overflow:hidden;
+    border:10px dashed brown;
+}
+
+.logo {
+    margin: 0 auto;
+    line-height:10px;
+    padding:5px;
+}
+
+.cover {
+    background: url('images/sa-cover.jpg') no-repeat;
+    color:yellow;
+    font-family: sans-serif;
+    height:200px;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.content {
+    overflow:hidden;
+}
+
+.item-wrapper {
+    padding: 25px;
+    float:left;
+    width:520px;
+}
+
+.item-wrapper > div {
+    font-size:18px;
+    font-weight: 700;
+    color:gray;
+}
+
+.item1 {
+    background-color:ghostwhite;
+    width: 500px;
+    padding:10px;
+    margin:5px;
+    display:inline-block;
+    clear:both;
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+
+.item1-image {
+    float:right;
+}
+
+.item2 {
+    background-color:ghostwhite;
+    width: 500px;
+    padding:10px;
+    display:inline-block;
+    clear:both;
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+.item2-image {
+    float:left;
+}
+
+.item-wrapper .title {
+    font-size: 30px;
+    font-family: arial;
+}
+
+.form-wrapper {
+    background-color:lightyellow;
+    width:300px;
+    float:left;
+    margin:10px;
+    margin-top: 30px;
+    font-family: arial;
+    border-radius: 10px;
+    font-size:20px;
+}
+
+.form-wrapper .crest {
+    font-size:40px;
+    font-family: gisha;
+    text-align:center;
+    background-color:lightskyblue;
+    color:white;
+    line-height:100px;
+    border-radius:10px 10px 0 0;
+    box-shadow: 1px 1px;
+}
+
+.join {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.details {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+form > div {
+    display: flex;
+}
+
+label {
+    flex: 1;
+    font-size: 16px;
+    text-align: left;
+}
+
+input, select {
+    width: 9rem;
+}
+
+.submit input {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 13px 33px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.submit input:hover {
+  background-color: aquamarine;  
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    font-family:arial;
+}
+
+.form-wrapper .email,.submit,.first,.last,.vertical,.bphone,.state,.zip,.country 
+{
+    text-align:center;
+    padding:5px;
+}
+
